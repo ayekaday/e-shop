@@ -1,9 +1,11 @@
 export const products = [
   {
     id: "1",
-    name: "fried chickenfried chickenfried chickenfried chickenfried chicken ",
-    description: "Short description",
-    price: "$60",
+    name: "Fried Chicken",
+    description:
+      "Crispy, golden-brown chicken seasoned to perfection, fried to juicy tenderness.",
+    price: "60",
+    brand: "Kaung Yukino",
     category: "Chicken",
     inStock: true,
     images: [
@@ -14,11 +16,11 @@ export const products = [
   },
   {
     id: "2",
-    name: "fried potatofried potatofried potatofried potatofried potatofried potato",
+    name: "Fried Potato",
     description:
-      "PERFECT STROKE KEYS - Spherically-dished keys match the shape of your fingertips, offering satisfying feedback with every tap\nCOMFORT AND STABILITY - Type with confidence on a keyboard crafted for comfort, stability, and precision",
+      "Crispy and golden-fried potatoes, perfect as a snack or side dish.",
     price: "$50",
-    brand: "logitech",
+    brand: "Kaung Yukino",
     category: "Potato",
     inStock: true,
     images: [
@@ -52,11 +54,11 @@ export const products = [
   },
   {
     id: "3",
-    name: "DonutDonut DonutDonut DonutDonutDonut",
+    name: "Donut",
     description:
-      'The product is refurbished, fully functional, and in excellent condition. Backed by the 90-day E~Shop Renewed Guarantee.\n- This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.\n- This product is in "Excellent condition". The screen and body show no signs of cosmetic damage visible from 12 inches away.\n- This product will have a battery that exceeds 80% capacity relative to new.\n- Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.\n- Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.\n- This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.\n- Refurbished phones are not guaranteed to be waterproof.',
+      "A soft and fluffy fried dough ring, often topped with sugar, glaze, or sprinkles for a sweet treat.",
     price: "$40",
-    brand: "Donut",
+    brand: "Kaung Yukino",
     category: "Donut",
     inStock: true,
     images: [
@@ -120,11 +122,11 @@ export const products = [
   },
   {
     id: "4",
-    name: "pizzapizza pizzapizza pizzap izzapizzapizzapizza",
+    name: "Pizza",
     description:
-      "Cross computer control: Game changing capacity to navigate seamlessly on 3 computers, and copy paste text, images, and files from 1 to the other using Logitech flow\nDual connectivity: Use with upto 3 Windows or Mac computers via included Unifying receiver or Bluetooth Smart wireless technology. Gesture button- Yes",
+      "A savory Italian dish with a crispy crust, topped with tomato sauce, cheese, and various toppings like vegetables, meat, or seafood.",
     price: 70,
-    brand: "logitech",
+    brand: "Kaung Yukino",
     category: "Pizza",
     inStock: true,
     images: [
@@ -138,9 +140,9 @@ export const products = [
   },
   {
     id: "5",
-    name: "coffeecof feecoffeec offeecoffee coffeecoffeecoffee",
+    name: "Coffee",
     description:
-      'Bluetooth Call and Message Reminder: The smart watch is equipped with HD speaker, after connecting to your phone via Bluetooth, you can directly use the smartwatches to answer or make calls, read messages, store contacts, view call history. The smartwatch can set up more message notifications in "GloryFit" APP. You will never miss any calls and messages during meetings, workout and riding.',
+      "Coffee is a popular beverage made from roasted coffee beans, offering a wide range of flavors. Some brands that stand out include Death Wish Coffee, known for its high caffeine content and bold taste, ideal for a strong pick-me-up. La Colombe delivers smooth, full-bodied, organic blends loved by dark roast enthusiasts. Dark Horse Coffee Roasters specializes in single-origin beans, offering bright and fruity flavors like their Ethiopian Guji Walichu. Hopscotch Coffee offers light roasts, rich and flavorful, with beans from Mexico. For small-batch aficionados, Máquina Coffee Roasters crafts high-quality beans from regions like Honduras and El Salvador, focusing on the art of roasting.",
     price: 50,
     brand: "Nerunsa",
     category: "Coffee",
@@ -161,9 +163,9 @@ export const products = [
   },
   {
     id: "6",
-    name: "cake cake offeecoffee coffeecoffeecoffee",
+    name: "Cake",
     description:
-      'Bluetooth Call and Message Reminder: The smart watch is equipped with HD speaker, after connecting to your phone via Bluetooth, you can directly use the smartwatches to answer or make calls, read messages, store contacts, view call history. The smartwatch can set up more message notifications in "GloryFit" APP. You will never miss any calls and messages during meetings, workout and riding.',
+      "A delicious, sweet dessert made from flour, sugar, eggs, and other ingredients, often layered and topped with frosting or fruits.",
     price: 50,
     brand: "Nerunsa",
     category: "cake",
