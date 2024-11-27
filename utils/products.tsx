@@ -144,7 +144,7 @@ export const products = [
     description:
       "Coffee is a popular beverage made from roasted coffee beans, offering a wide range of flavors. Some brands that stand out include Death Wish Coffee, known for its high caffeine content and bold taste, ideal for a strong pick-me-up. La Colombe delivers smooth, full-bodied, organic blends loved by dark roast enthusiasts. Dark Horse Coffee Roasters specializes in single-origin beans, offering bright and fruity flavors like their Ethiopian Guji Walichu. Hopscotch Coffee offers light roasts, rich and flavorful, with beans from Mexico. For small-batch aficionados, Máquina Coffee Roasters crafts high-quality beans from regions like Honduras and El Salvador, focusing on the art of roasting.",
     price: 50,
-    brand: "Nerunsa",
+    brand: "Kaung Yukino",
     category: "Coffee",
     inStock: true,
     images: [
@@ -167,7 +167,7 @@ export const products = [
     description:
       "A delicious, sweet dessert made from flour, sugar, eggs, and other ingredients, often layered and topped with frosting or fruits.",
     price: 50,
-    brand: "Nerunsa",
+    brand: "Kaung Yukino",
     category: "cake",
     inStock: true,
     images: [
