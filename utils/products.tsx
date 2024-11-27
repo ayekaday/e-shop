@@ -149,12 +149,35 @@ export const products = [
       {
         color: "Black",
         colorCode: "#000000",
-        image: "/coffee2.png",
+        image: "/coffee.png",
       },
       {
         color: "Silver",
         colorCode: "#C0C0C0",
-        image: "/coffee1.png",
+        image: "/coffee.png",
+      },
+    ],
+    reviews: [],
+  },
+  {
+    id: "6",
+    name: "cake cake offeecoffee coffeecoffeecoffee",
+    description:
+      'Bluetooth Call and Message Reminder: The smart watch is equipped with HD speaker, after connecting to your phone via Bluetooth, you can directly use the smartwatches to answer or make calls, read messages, store contacts, view call history. The smartwatch can set up more message notifications in "GloryFit" APP. You will never miss any calls and messages during meetings, workout and riding.',
+    price: 50,
+    brand: "Nerunsa",
+    category: "cake",
+    inStock: true,
+    images: [
+      {
+        color: "Black",
+        colorCode: "#000000",
+        image: "/cake.png",
+      },
+      {
+        color: "Silver",
+        colorCode: "#C0C0C0",
+        image: "/cake.png",
       },
     ],
     reviews: [],
