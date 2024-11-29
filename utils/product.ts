@@ -10,6 +10,7 @@ export const product = {
   images: [
     { color: "White", colorCode: "#FFFFFF", image: "/chicken.png" },
     { color: "Gray", colorCode: "#808080", image: "/chicken.png" },
+    { color: "red", colorCode: "#FF0000", image: "/chicken.png" },
   ],
   reviews: [],
 };
