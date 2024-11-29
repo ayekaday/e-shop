@@ -4,11 +4,11 @@ export const product = {
   description:
     "Crispy, golden-brown chicken seasoned to perfection, fried to juicy tenderness.",
   price: "60",
-  brand: "Kaung Yukino",
+  brand: "Yukino Luxe",
   category: "Chicken",
   inStock: true,
   images: [
-    { color: "White", colorCode: "#FFFFFF", image: "/chicken.png" },
+    { color: "Yellow", colorCode: "#FFFF00", image: "/chicken.png" },
     { color: "Gray", colorCode: "#808080", image: "/chicken.png" },
     { color: "red", colorCode: "#FF0000", image: "/chicken.png" },
   ],
