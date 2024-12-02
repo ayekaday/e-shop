@@ -161,6 +161,7 @@ export const products = [
     ],
     reviews: [],
   },
+
   {
     id: "6",
     name: "Cake",
@@ -180,6 +181,30 @@ export const products = [
         color: "Silver",
         colorCode: "#C0C0C0",
         image: "/cake.png",
+      },
+    ],
+    reviews: [],
+  },
+
+  {
+    id: "7",
+    name: "Burgar",
+    description:
+      "A delicious, sweet dessert made from flour, sugar, eggs, and other ingredients, often layered and topped with frosting or fruits.",
+    price: 90,
+    brand: "Kaung Yukino",
+    category: "burgar",
+    inStock: true,
+    images: [
+      {
+        color: "Black",
+        colorCode: "#000000",
+        image: "/burgar.png",
+      },
+      {
+        color: "Silver",
+        colorCode: "#C0C0C0",
+        image: "/burgar.png",
       },
     ],
     reviews: [],

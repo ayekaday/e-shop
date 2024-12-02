@@ -8,9 +8,9 @@ export const product = {
   category: "Chicken",
   inStock: true,
   images: [
-    { color: "Yellow", colorCode: "#FFFF00", image: "/chicken.png" },
-    { color: "Gray", colorCode: "#808080", image: "/chicken.png" },
-    { color: "red", colorCode: "#FF0000", image: "/chicken.png" },
+    { color: "Pink", colorCode: "#FFC0CB", image: "/burgar.png" },
+    { color: "Orange", colorCode: "#FFA500", image: "/chicken.png" },
+    { color: "Red", colorCode: "#FF0000", image: "/coffee.png" },
   ],
   reviews: [],
 };
