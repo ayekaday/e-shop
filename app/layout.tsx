@@ -24,8 +24,8 @@ export default function RootLayout({
         <Toaster
           toastOptions={{
             style: {
-              background: "rbg(51 65 85)",
-              // color: "#fff",
+              background: "rgb(51, 65, 85)", // Correct "rgb" format
+              color: "#fff", // Enable text color
             },
           }}
         />
