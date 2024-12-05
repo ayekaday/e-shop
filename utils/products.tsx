@@ -14,12 +14,13 @@ export const products = [
     ],
     reviews: [],
   },
+
   {
     id: "2",
     name: "Fried Potato",
     description:
       "Crispy and golden-fried potatoes, perfect as a snack or side dish.",
-    price: "$50",
+    price: "50",
     brand: "Kaung Yukino",
     category: "Potato",
     inStock: true,
@@ -52,12 +53,13 @@ export const products = [
       },
     ],
   },
+
   {
     id: "3",
     name: "Donut",
     description:
       "A soft and fluffy fried dough ring, often topped with sugar, glaze, or sprinkles for a sweet treat.",
-    price: "$40",
+    price: "40",
     brand: "Kaung Yukino",
     category: "Donut",
     inStock: true,
@@ -70,7 +72,7 @@ export const products = [
       {
         color: "Blue",
         colorCode: " #0000FF",
-        image: "/dnut.png",
+        image: "/donut.png",
       },
       {
         color: "Red",
@@ -100,7 +102,7 @@ export const products = [
         },
       },
       {
-        id: "3",
+        id: "4",
         userId: "6475af156bad4917456e6e1e",
         productId: "648437b38c44d52b9542e340",
         rating: 5,
@@ -120,6 +122,7 @@ export const products = [
       },
     ],
   },
+
   {
     id: "4",
     name: "Pizza",
@@ -138,6 +141,7 @@ export const products = [
     ],
     reviews: [],
   },
+
   {
     id: "5",
     name: "Coffee",
