@@ -1,5 +1,4 @@
 import { CartProductType } from "@/app/product/[productId]/ProductDetails";
-import { product } from "@/utils/product";
 import {
   createContext,
   useCallback,

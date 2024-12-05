@@ -1,13 +1,16 @@
 "use client";
 import Container from "@/app/Container";
 import ProductDetails from "./ProductDetails";
-import { product } from "@/utils/product";
 import { useParams } from "next/navigation";
 import ListRating from "./ListRating";
+import { products } from "@/utils/products";
 
 const Product = () => {
   const params = useParams();
   console.log("params", params);
+
+  const product = products.find((item) => item.id === params.productId);
+
   return (
     <div className="p-8">
       <Container>
