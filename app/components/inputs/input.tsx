@@ -47,7 +47,7 @@ const Input: React.FC<InputProps> = ({
       />
       <label
         htmlFor={id}
-        className="
+        className={`
       absolute
       cursor-text
       text-md
@@ -61,8 +61,10 @@ const Input: React.FC<InputProps> = ({
       peer-placeholder-shown:scale-100
       peer-placeholder-shown:translate-y-0
       peer-focus:scale-75
-      peer-focus:translate-y-4
-      "
+      peer-focus:-translate-y-4
+    ${errors[id] ? "text-rose-500" : "text-slate-400"}
+
+      `}
       >
         {label}
       </label>
