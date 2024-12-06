@@ -1,5 +1,5 @@
 "use client";
-import Container from "@/app/Container";
+import Container from "@/app/components/Container";
 import ProductDetails from "./ProductDetails";
 import { useParams } from "next/navigation";
 import ListRating from "./ListRating";

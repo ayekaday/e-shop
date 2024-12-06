@@ -1,6 +1,6 @@
 import { products } from "@/utils/products";
 import HomeBanner from "./components/HomeBanner";
-import Container from "./Container";
+import Container from "./components/Container";
 import ProductCard from "./components/products/ProductCard";
 
 export default function Home() {
