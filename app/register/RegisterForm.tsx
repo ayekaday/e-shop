@@ -6,6 +6,7 @@ import Input from "../components/inputs/input";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import Button from "../components/Button";
 import Link from "next/link";
+import { AiOutlineGoogle } from "react-icons/ai";
 
 const RegisterForm = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -29,6 +30,12 @@ const RegisterForm = () => {
   return (
     <>
       <Heading title="Sign up for E-Shop" />
+      <Button
+        outline
+        label="Sign up with Google"
+        icon={AiOutlineGoogle}
+        onClick={() => {}}
+      />
       <hr className="bg-slate-300 w-full h-px" />
       <Input
         id="name"
