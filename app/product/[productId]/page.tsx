@@ -9,6 +9,10 @@ const Product = () => {
   const params = useParams();
   console.log("params", params);
 
+  // Null checking
+  if (!params || !params.productId) {
+    return <div>Product not found</div>;
+  }
   const product = products.find((item) => item.id === params.productId);
 
   return (
