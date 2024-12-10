@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "mongodb+srv://ayekaday:MongoDb%40271298@<cluster-url>/<database>?retryWrites=true&w=majority",
+    "NEXTAUTH_SECRET": "e-shop-yukino"
+  }
+}
