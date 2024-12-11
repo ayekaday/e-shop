@@ -39,7 +39,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
         text-slate-700
         "
         >
-          <Avatar />
+          <Avatar src={currentUser?.image} />
           <AiFillCaretDown />
         </div>
         {isOpen && (
@@ -72,7 +72,9 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
                 <MenuItem
                   onClick={() => {
                     toggleOpen();
-                    signOut();
+                    signOut({
+                      callbackUrl: "/register",
+                    });
                   }}
                 >
                   Logout
